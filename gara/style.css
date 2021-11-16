@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 2em;
+    background: linear-gradient(white, black);
+    background-attachment: fixed;
+}
+
+.heading{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    position: relative;
+}
+.heading img{
+    position:absolute;
+    z-index: -1;
+}
+.head{
+    display:flex;
+    /* flex-wrap: wrap; */
+    width: 80%;
+    margin: auto;
+}
+
+.head .content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 50px auto;
+    width: 80%;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.one .container{
+    display: flex;
+}
+.one .container .image img{
+    width: 150px;
+    height: auto;
+}
+.two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 50px 0;
+}
+.three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 50px 0;
+
+}
+
+.two button{
+    background-color: transparent;
+    border: 0;
+    margin: 0 30px;
+}
+.card-header{
+    text-align: center;
+}
+.white{
+    color: aliceblue;
+}
