@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1f222d;
+    height: 100vh;
+}
+.title{
+    font-size: 80px;
+    color: #E5E9F0;
+}
+svg{
+    margin: 20px;
+}
+svg rect{
+    fill: red;
+
+    animation: k 4s infinite;
+}
+@keyframes k{
+    0% {fill: red;}
+  50% {fill: yellow;}
+
+}

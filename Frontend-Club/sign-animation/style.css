@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+}
+#one{
+    stroke-dasharray: 20;
+stroke-dashoffset: 50;
+animation: draw 4s infinite;
+}
+#two{
+    stroke-dasharray: 20;
+    stroke-dashoffset: 50;
+    animation: draw 4s infinite;
+}
+@keyframes draw {
+    50%{
+        stroke-dashoffset: 0;
+    }
+}

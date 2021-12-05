@@ -1,0 +1,79 @@
+<html>
+
+<head>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .land {
+            position: relative;
+            height: 300px;
+            width: 600px;
+            background-color: #6A9C72;
+            border-radius:0px 0px 600px 600px;
+        }
+        .m1 {
+            position: absolute;
+            top:100px;
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 150px solid #828C52;
+          }
+          .m2 {
+            position: absolute;
+            top:131px;
+            left: 520px;
+            width: 0;
+            height: 0;
+            border-left: 75px solid transparent;
+            border-right: 75px solid transparent;
+            border-bottom: 100px solid #8F9E46;
+          }
+        .river{
+            position: absolute;
+            z-index: 10;
+            left: 800px;
+            height: 300px;
+            border-radius: 10px 10px 30px 20px;
+            width: 50px;
+            background-color: #A3D4F7;
+        }
+        .sun{
+            margin-left: 30px;
+            position: fixed;
+            top: 30px;
+            left: 900px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #FCC30B;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div class="sun"></div>
+        <div class="m1"></div>
+        <div class="m2"></div>
+        <div class="river"></div>
+        <div class="land">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "1"
+		},
+		{
+			"path": "2"
+		},
+		{
+			"path": "Day9"
+		},
+		{
+			"path": "Day10"
+		},
+		{
+			"path": "Frontend-Mentor"
+		},
+		{
+			"path": "gara"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Frontend-Mentor"
+	}
+}
